@@ -1,0 +1,22 @@
+package: com.xxx.user_info
+struct:
+  - name: person
+    fields:
+      - name: first_name
+        type: string
+      - name: last_name
+        type: string
+      - name: age
+        type: int64
+  - name: address
+    fields:
+      - name: city
+        type: string
+      - name: country
+        type: string
+  - name: user
+    fields:
+      - name: person
+        type: person
+      - name: address
+        type: pddress
